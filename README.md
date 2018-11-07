@@ -2,6 +2,9 @@
 exercicio_alura
 Comandos básicos GIT
 
+// Lista usuários
+git config --list
+
 // Define o usuário
 
 git config --global user.email sam@google.com
@@ -24,6 +27,7 @@ um arquivo chamado temp.txt presente no diretório local para o índice:
 git clone
 
 //O comando git clone é usado para fins de verificação de repositório. Se o repositório estiver em um servidor remoto, use:
+
 git clone https://github.com/maxwelsdk/Agenda.git
 
 git commit
